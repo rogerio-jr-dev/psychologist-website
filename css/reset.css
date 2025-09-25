@@ -1,0 +1,17 @@
+body,
+ul,
+li,
+a,
+span,
+h1,
+h2,
+h3,
+p,
+button {
+  text-decoration: none;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  font-weight: inherit;
+}
+
