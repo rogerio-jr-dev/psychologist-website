@@ -8,39 +8,41 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">  
+  <link rel="stylesheet" href="css/style.css">
   <title>Stela Almeida</title>
 </head>
-<body>
+<body class="container">
   <header>
     <div class="logo-nome">
       <img src="src/img/logo.svg" alt="Logo do site" >
-      <span>Stela S. de Almeida</span>      
+      <span>Stela S.<br>de Almeida</span>
     </div>
     <nav>
     <ul>
-      <li><a href="#">Experiência</a></li>
-      <li><a href="#">Formação</a></li>
-      <li><a href="#">Contato</a></li>
+      <li><a href="#experiencia">Experiência</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#contato">Contato</a></li>
     </ul>
     </nav>    
   </header>
- 
   <main>
-   <article>
-     <div> <img src="src/img/profile-foto.jpeg" alt="Foto da Profissional">
+   <article class="article-name">
+     <div class="foto-profile">
+         <img src="src/img/profile-foto.jpg" alt="Foto da Profissional">
      </div>
       <div>
-        <h1> Psicóloga Stela S. de Almeida</h1>
-         <span> CRP: 03/23409 </span>
-         <span> Localizada em Ibicuí-BA </span>
-         <div>
-          <a href="https://wa.me/557399676881?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta."> Agendar Consulta </a>
+        <h1> Psicóloga <br> Stela S. de Almeida</h1>
+          <div class="location">
+             <span class="text-secondary"> CRP: 03/23409 </span>
+             <span class="text-secondary"> Localizada em Ibicuí-BA </span>
+          </div>
+          <div class="button-area">
+          <a class="button" href="https://wa.me/557399676881?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta."> Agendar Consulta </a>
           <img src="src/img/deco-circle.svg" alt="">
          </div>
       </div>
    </article>
-  <article>
+  <article id="experiencia">
     <div>
       <h2>Experiência</h2>
     </div>   
@@ -58,7 +60,7 @@
        </div>
     </div>
   </article>
-  <article>
+  <article id="formacao">
     <div>
       <h3>Formação</h3>
     </div>
@@ -91,7 +93,7 @@
   </article>
 
   </main>
-  <footer>
+  <footer id="#contato">
     <img src="/src/img/deco.svg" alt="">
     <div>
       <span>Estou à disposição para auxiliar em sua jornada de autoconhecimento e fortalecimento emocional. 👋</span>

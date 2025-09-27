@@ -1,0 +1,18 @@
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.button{
+    max-width: 270px;
+    background-color: #0D3E69;
+    color: #ffffff;
+    padding: 19px 36px;
+    border-radius: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}

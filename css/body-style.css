@@ -1,0 +1,44 @@
+
+.article-name{
+    display: flex;
+    margin-top: 127px;
+    gap: 60px;
+}
+.foto-profile{
+    max-width: 390px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.foto-profile img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+.article-name h1{
+    font-size: 4.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+}
+.text-secondary{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+    color:#525252;
+    margin-bottom: 40px;
+}
+.button-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.button:hover{
+    background-color: #092D4D;
+    transition: 0.5s;
+}
