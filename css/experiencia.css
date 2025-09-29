@@ -1,0 +1,37 @@
+/* Blocos de experiência */
+#experiencia > div:nth-child(2) > div {
+  background: #F0F0F0;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(175, 28, 28, 0.1);
+  margin-bottom: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 160px;  /*Cargo */
+  grid-template-rows: auto auto;
+  gap: 10px 20px;
+ 
+}
+
+article span{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+#experiencia p {
+  font-family: 'Fira Sans', sans-serif; 
+  color: #333; 
+}
+
+#experiencia h2{ 
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    color: #F0F0F0;
+    font-size: 144px;
+    font-weight: bold;
+    gap: 100px;
+    text-transform: uppercase;
+}
+
+
