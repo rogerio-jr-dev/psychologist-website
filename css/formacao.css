@@ -1,28 +1,22 @@
 #formacao {
     background: #1a1a1a;
-    padding: 0px 40px;
+    padding: 120px 57px;
 }
 
 
 #formacao h3 {
     float: left; /* formação para esquerda*/
     margin-right: 60px;
-    line-height: 8; /* altura da linha formação */
-    font-size: 4.0rem;
+    font-size: 6rem;
     font-weight: 900;
-    color: #000;
+    color: #000000;
     margin-bottom: 40px;
     text-transform: uppercase;
-
 }
 
 #formacao p {
     font-family: 'Fira Sans', sans-serif; 
     color: #FFFFFF;
-    max-width: 700px;
-    
-    font-size: 1rem;
-
 }
 
 /* Bacharel / Especialização */
@@ -51,8 +45,6 @@
 .paizao {
     display: flex;
 }
-
-
 
 #formacao ul li {
     position: relative;

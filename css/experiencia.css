@@ -19,19 +19,36 @@ article span{
     color: #000000;
 }
 
+.article-name {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #E0E0E0;
+}
+
+#experiencia {
+  padding-top: 20px;
+  margin-bottom: 60px;
+}
+
 #experiencia p {
   font-family: 'Fira Sans', sans-serif; 
-  color: #333; 
+  color: #333;
 }
 
 #experiencia h2{ 
     display: flex;
+    float: left;
     font-family: 'Playfair Display', serif;
     color: #F0F0F0;
-    font-size: 144px;
+    font-size: 100px;
     font-weight: bold;
-    gap: 100px;
     text-transform: uppercase;
+    padding: 0px 70px;
+    justify-items: center;
+}
+
+.texto1 {
+  font-size: 24px;
+  margin-bottom: 42px;
 }
 
 
