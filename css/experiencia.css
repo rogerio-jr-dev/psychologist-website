@@ -10,7 +10,7 @@
   grid-template-columns: 1fr 160px;  /*Cargo */
   grid-template-rows: auto auto;
   gap: 10px 20px;
- 
+
 }
 
 article span{
@@ -33,5 +33,7 @@ article span{
     gap: 100px;
     text-transform: uppercase;
 }
+
+
 
 

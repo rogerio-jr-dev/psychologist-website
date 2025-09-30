@@ -1,0 +1,22 @@
+footer {
+    background: #000;
+    padding: 40px;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #aaa;
+}
+
+footer span {
+    display: block;
+    margin: 6px 0;
+}
+
+footer .devs {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+

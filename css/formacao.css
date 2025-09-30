@@ -1,0 +1,68 @@
+#formacao {
+    background: #1a1a1a;
+    padding: 80px 40px;
+    position: relative;
+}
+
+#formacao::before {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-size: 7rem;
+    font-weight: 900;
+    color: #000000;
+}
+
+#formacao h3 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+#formacao p {
+    font-family: 'Fira Sans', sans-serif; 
+    color: #FFFFFF;
+    max-width: 700px;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+
+}
+
+/* Bacharel / Especialização */
+.formation {
+    background: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 20px 20px 0;
+    display: inline-block;
+    min-width: 220px;
+    position: relative;
+    z-index: 1;
+}
+
+.formation span {
+    display: block;
+    margin: 3px 0;
+    color: #bbb;
+}
+
+.formation strong {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+#formacao ul li {
+    position: relative;
+    padding-left: 20px;
+    color: #ccc;
+}
+
+#formacao ul li::before {
+    content: "●";
+    position: absolute;
+    left: 0;
+    color: #0080ff;
+}
