@@ -4,15 +4,6 @@
     position: relative;
 }
 
-#formacao::before {
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    font-size: 7rem;
-    font-weight: 900;
-    color: #000000;
-}
-
 #formacao h3 {
     font-size: 3.5rem;
     font-weight: 900;
